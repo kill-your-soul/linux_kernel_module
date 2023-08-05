@@ -9,41 +9,41 @@ Example of a Linux Kernel Module that write message to file. And program that ch
 4. [linux-headers](https://www.kernel.org/doc/html/latest/admin-guide/kernel-parameters.html)
 
 ## Installation
-    1. Clone repository
+    
+1. Clone repository
     
     ```bash
     git clone https://github.com/kill-your-soul/linux_kernel_module.git
     ```
 
-    2. Build module
+2. Build module
 
     ```bash
     cd linux_kernel_module
     make
     ```
 
-    3. Install module
+3. Install module
 
     ```bash
     make load
     ```
 
-    4. Check module
+4. Check module
 
     ```bash
     sudo dmesg
     ```
 
-    5. Build program
+5. Build program
 
     ```bash
     gcc -o set_params set_params.c
     ```
 
-    6. Run program
+6. Run program
 
     ```bash
     sudo ./set_params
     ```
 
-    
